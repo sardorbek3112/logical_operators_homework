@@ -5,5 +5,5 @@ def main(a):
         a(int): parameter a
     Returns:
         bool: answer
-    """
-    return
+    """       
+    return a//100000==0 and a//10000!=0
