@@ -8,4 +8,5 @@ def main(x):
     Returns:
         bool: answer
     """
-    return
+
+    return x == x % 10 * 100 +x // 10 % 10 * 10 +x // 100 or x == x % 10 * 10 + x // 10 + x // 100 or x // 10 == 0
